@@ -110,6 +110,7 @@ const projects = [
     image: YT,
   },
 ];
+
 const miniProjects = [
   {
     name: "Cartify",
@@ -161,16 +162,13 @@ const contacts = [
 export default function App() {
   return (
     <div className="bg-neutral-900 min-h-screen text-neutral-100 font-mono">
-      {/* Header */}
       <header className="fixed top-0 left-0 w-full bg-neutral-900/80 backdrop-blur z-10 border-b border-neutral-800 h-16 px-6">
         <nav className="flex items-center h-16 w-full">
-          {/* Logo on the left */}
           <a href="#">
             <span className="text-lg font-bold tracking-tight text-blue-400">
               KSM
             </span>
           </a>
-          {/* Nav links on the right */}
           <ul className="flex gap-6 ml-auto">
             {sections.map((section) => (
               <li key={section.id}>
@@ -197,17 +195,14 @@ export default function App() {
         </nav>
       </header>
 
-      {/* Dot Navigation */}
       <Navigation sections={sections} />
 
-      {/* Sections Wrapper */}
       <div>
         <section
           id="about"
           className="min-h-screen flex flex-col justify-center px-0 pt-16"
         >
           <div className="flex flex-col md:flex-row h-[calc(100vh-4rem)]">
-            {/* About Text */}
             <div className="w-full md:w-1/2 flex items-center justify-center px-6">
               <div className="flex flex-col items-center text-center">
                 <h2 className="text-4xl font-bold text-blue-400 mb-6">About</h2>
@@ -237,7 +232,6 @@ export default function App() {
                 </p>
               </div>
             </div>
-            {/* Profile Photo */}
             <div className="w-full md:w-1/2 h-80 md:h-full flex items-center justify-center">
               <img
                 src={KSM}
@@ -269,9 +263,7 @@ export default function App() {
             quickly grasp and adapt to new technologies autonomously.
           </p>
 
-          {/* Two Columns */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto w-full">
-            {/* Languages Column */}
             <div>
               <h3 className="text-xl font-semibold text-blue-300 mb-5 text-center">
                 Languages
@@ -297,7 +289,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* Tools & Libraries Column */}
             <div>
               <h3 className="text-xl font-semibold text-blue-300 mb-5 text-center">
                 Tools &amp; Libraries
@@ -427,7 +418,6 @@ export default function App() {
         </section>
       </div>
 
-      {/* Footer */}
       <footer className="text-center text-neutral-600 py-10 text-sm">
         &copy; 2025 Kartikeya Shankar Mishra
       </footer>
