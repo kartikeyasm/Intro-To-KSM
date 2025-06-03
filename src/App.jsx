@@ -1,6 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
 import Navigation from "./components/navigation";
-import KSM from "./assets/ksm.jpg";
+import KSM from "./assets/KSM.jpg";
 import Portfolio from "./assets/PortfolioWebpage.png"
 import Gmail from "./assets/Gmail.png";
 import YT from "./assets/YT.png";
