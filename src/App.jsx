@@ -174,7 +174,7 @@ export default function App() {
               <li key={section.id}>
                 {section.id === "resume" ? (
                   <a
-                    href="https://drive.google.com/file/d/1yfNuCP59d3_MMcbCoKJgRtUTiUpgHq0O/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1Pj5890vby8WZAi0VBLIeihdVnMfFtWf_/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-blue-400 transition"
